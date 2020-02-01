@@ -15,6 +15,8 @@ abstract class Conta {
         }
     }
 
+    abstract function retirar($quantia);
+
     public function getInfo() {
         return "Agência: {$this->agencia}, Conta: {$this->conta}";
     }
