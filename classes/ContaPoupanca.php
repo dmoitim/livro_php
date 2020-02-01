@@ -1,6 +1,6 @@
 <?php
 
-class ContaPoupanca extends Conta {
+final class ContaPoupanca extends Conta {
 
     public function retirar($quantia) {
         if ($this->saldo >= $quantia) {
